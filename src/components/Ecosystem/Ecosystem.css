@@ -1,0 +1,31 @@
+.ecosystemTitle {
+    margin-top: 208px;
+    font-family: Barlow, serif;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.ecosystemTitle h2{
+    color: #152370;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+}
+
+.ecosystemTitle h3{
+    margin: 0 auto;
+    width: 572px;
+    color: #2B2350;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.ecoDiagramContainer {
+    margin-top: 101px;
+    background-image: url("../../assets/images/back-img-eco.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
