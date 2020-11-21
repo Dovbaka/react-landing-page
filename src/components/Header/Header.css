@@ -2,6 +2,10 @@
     background-image: url("../../assets/images/blue 1.png");
     background-repeat: no-repeat;
     background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .mainTitleContainer {
@@ -31,6 +35,7 @@
     font-weight: 500;
     font-size: 15px;
     border-radius: 5px 25px 5px 25px;
+    margin-top: 30px;
 }
 
 .flexMediaWrapper {
@@ -50,6 +55,7 @@
     border-radius: 5px;
     position: relative;
 }
+
 
 .playIcon {
     position: absolute;

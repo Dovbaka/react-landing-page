@@ -1,20 +1,26 @@
 import React from "react";
-import "./BrandCircle.css"
+import "./EcoDiagram.css"
+import BrandCircle from "./BrandCircle/BrandCircle";
+import ecoMainIcon from "../../../assets/images/EcoMainIcon.png"
 
-export default function EdoDiagram() {
+export default function EcoDiagram() {
     return <div className="ecoContainer">
         <div className="sideElems">
-            <div className="circle">
-                <div className="firstC"></div>
-            </div>
-            <div className="smallCircle"></div>
-            <div className="smallCircle"></div>
+            <BrandCircle classStyle={"topVector"}/>
+            <BrandCircle classStyle={"topVector"}/>
+            <BrandCircle classStyle={"centerVector"}/>
+            <BrandCircle classStyle={"bottomVector"}/>
+            <BrandCircle classStyle={"bottomVector"}/>
         </div>
-        <div className="mainCircle"></div>
+        <div className="mainCircle">
+            <img src={ecoMainIcon} alt={"EcoIcon"}/>
+        </div>
         <div className="sideElems last">
-            <div className="smallCircle"></div>
-            <div className="smallCircle"></div>
-            <div className="smallCircle"></div>
+            <BrandCircle classStyle={"topVector"}/>
+            <BrandCircle classStyle={"topVector"}/>
+            <BrandCircle classStyle={"centerVector"}/>
+            <BrandCircle classStyle={"bottomVector"}/>
+            <BrandCircle classStyle={"bottomVector"}/>
         </div>
     </div>
 }

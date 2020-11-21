@@ -1,5 +1,8 @@
-.ecosystemTitle {
+.ecoWrapper {
     margin-top: 208px;
+}
+
+.ecosystemTitle {
     font-family: Barlow, serif;
     font-style: normal;
     text-align: center;
@@ -15,7 +18,7 @@
 
 .ecosystemTitle h3{
     margin: 0 auto;
-    width: 572px;
+    max-width: 572px;
     color: #2B2350;
     font-weight: normal;
     font-size: 18px;
@@ -23,9 +26,43 @@
 }
 
 .ecoDiagramContainer {
-    margin-top: 101px;
+    margin: 100px 0 240px 0;
     background-image: url("../../assets/images/back-img-eco.svg");
     background-repeat: no-repeat;
     background-size: auto;
     text-align: center;
+}
+
+.ecoCardsContainer {
+    padding-top: 100px;
+    background-color: #f6f6f6;
+    background-size: auto;
+    text-align: center;
+}
+
+.ecosystemCard {
+    margin: 30px 25px;
+    background: white;
+    padding: 20px;
+    width: 450px;
+    display: inline-block;
+    text-align: start;
+    position: relative;
+    box-shadow: 0 1px 36px rgba(102, 102, 102, 0.16);
+    border-radius: 10px;
+}
+
+.ecosystemCard h3 {
+    font-family: Barlow, serif;
+    font-style: normal;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2B2350;
+}
+
+.ecosystemCard img{
+    width: 80%;
+    background-size: cover;
 }

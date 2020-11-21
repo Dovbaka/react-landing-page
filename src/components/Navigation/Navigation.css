@@ -1,11 +1,11 @@
 .navContainer {
-    width: 100%;
+    width: 80%;
     text-align: center;
+    padding-top: 40px;
 }
 
 .navbar {
     margin: 0 auto;
-    padding: 40px 259px;
 }
 
 .brand {

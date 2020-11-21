@@ -16,7 +16,7 @@ export default function Header() {
             </div>
             <div className={"flexMediaWrapper"}>
                 <div className={"mediaBlock"}>
-                    <img src={mediaImg} alt={"Media"}/>
+                    <img src={mediaImg} alt={"Media"} style={{width:"100%", backgroundSize:"cover"}}/>
                     <img src={mediaPlay} alt={"Play"} className={"playIcon"}/>
                 </div>
             </div>

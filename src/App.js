@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './App.module.css';
+import './App.css';
 import {Route, Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
 import About from "./components/About/About";
@@ -8,7 +8,7 @@ import Ecosystem from "./components/Ecosystem/Ecosystem";
 
 function App() {
     return (
-        <div>
+        <div className={"app-wrapper"}>
             <Header/>
             <Ecosystem/>
         </div>
