@@ -35,9 +35,15 @@
 
 .ecoCardsContainer {
     padding-top: 100px;
-    background-color: #f6f6f6;
+    background-image: url("../../assets/images/back-img-gray.png");
+    background-repeat: no-repeat;
     background-size: auto;
     text-align: center;
+}
+
+.ecoCardsList {
+    padding-top: 90px;
+    margin-bottom: 217px;
 }
 
 .ecosystemCard {
@@ -66,3 +72,4 @@
     width: 80%;
     background-size: cover;
 }
+

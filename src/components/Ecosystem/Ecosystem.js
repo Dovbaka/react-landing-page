@@ -15,12 +15,14 @@ export default function Ecosystem() {
         </div>
         <div className={"ecoCardsContainer"}>
             <EcoTitle />
-            <EcoCard image={cardImg3}/>
-            <EcoCard image={cardImg1}/>
-            <EcoCard image={cardImg2}/>
-            <EcoCard image={cardImg3}/>
-            <EcoCard image={cardImg1}/>
-            <EcoCard image={cardImg2}/>
+            <div className={"ecoCardsList"}>
+                <EcoCard image={cardImg3}/>
+                <EcoCard image={cardImg1}/>
+                <EcoCard image={cardImg2}/>
+                <EcoCard image={cardImg3}/>
+                <EcoCard image={cardImg1}/>
+                <EcoCard image={cardImg2}/>
+            </div>
         </div>
     </div>
 }
